@@ -7,7 +7,9 @@ return {
             sources = {
                 -- formatters
                 null_ls.builtins.formatting.stylua,
+                null_ls.builtins.formatting.prettier,
                 -- linters
+                null_ls.builtins.formatting.eslint_d,
             }
         })
 
